@@ -15,12 +15,12 @@ cask "oastools" do
     on_intel do
       url "https://github.com/erraggy/oastools/releases/download/v#{version}/oastools_Darwin_x86_64.tar.gz",
         verified: "github.com/erraggy/oastools"
-      sha256 "32beaf7b6a3e1d1187acfc69c1813d66bcae938613acd12376cc32f8ce592d52"
+      sha256 "4ed0b0398eebc618e78f6b77b46e58454a47ee043387530ae87094dca80dc5d4"
     end
     on_arm do
       url "https://github.com/erraggy/oastools/releases/download/v#{version}/oastools_Darwin_arm64.tar.gz",
         verified: "github.com/erraggy/oastools"
-      sha256 "de96107e637e96208676b40bdf21a1fa38026fbcf9aec6ad3809bd6ebf838781"
+      sha256 "0f50b966d1135a045d91da7536cb5f71de4fba19ee52dc00c2666e55221e20bf"
     end
   end
 
@@ -28,12 +28,12 @@ cask "oastools" do
     on_intel do
       url "https://github.com/erraggy/oastools/releases/download/v#{version}/oastools_Linux_x86_64.tar.gz",
         verified: "github.com/erraggy/oastools"
-      sha256 "e9eaf18e4ac000e833e27adcebec272569b7c02c271e2ac7fe0f08bdb7381cfe"
+      sha256 "f4b195b727911abc055eb625b7c3f724be440edf20f47c3277e4dedd289fb2eb"
     end
     on_arm do
       url "https://github.com/erraggy/oastools/releases/download/v#{version}/oastools_Linux_arm64.tar.gz",
         verified: "github.com/erraggy/oastools"
-      sha256 "c421ff95500d80965ee6efd8f73b52454569899adff8680f5b42f0a8abb94d79"
+      sha256 "8f0000147601bca5804c3089ff9a41bceb1a750234ba6a326528b6af6ce00035"
     end
   end
 
