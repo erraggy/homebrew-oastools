@@ -3,7 +3,7 @@ cask "oastools" do
   name "oastools"
   desc "OpenAPI Specification (OAS) tools for validation, parsing, converting, and joining specs."
   homepage "https://github.com/erraggy/oastools"
-  version "1.9.9-test"
+  version "1.9.10"
 
   livecheck do
     skip "Auto-generated on release."
@@ -15,12 +15,12 @@ cask "oastools" do
     on_intel do
       url "https://github.com/erraggy/oastools/releases/download/v#{version}/oastools_Darwin_x86_64.tar.gz",
         verified: "github.com/erraggy/oastools"
-      sha256 "4ed0b0398eebc618e78f6b77b46e58454a47ee043387530ae87094dca80dc5d4"
+      sha256 "8a8cfefcbb22cd86c8b4869c3ade1e4a308478b62ff20d378086b1771e01a6cc"
     end
     on_arm do
       url "https://github.com/erraggy/oastools/releases/download/v#{version}/oastools_Darwin_arm64.tar.gz",
         verified: "github.com/erraggy/oastools"
-      sha256 "0f50b966d1135a045d91da7536cb5f71de4fba19ee52dc00c2666e55221e20bf"
+      sha256 "94325baafd9ddc1ad2844574de489e7acbb6567fdc5bbb5befd5a6a6d80a4211"
     end
   end
 
@@ -28,12 +28,12 @@ cask "oastools" do
     on_intel do
       url "https://github.com/erraggy/oastools/releases/download/v#{version}/oastools_Linux_x86_64.tar.gz",
         verified: "github.com/erraggy/oastools"
-      sha256 "f4b195b727911abc055eb625b7c3f724be440edf20f47c3277e4dedd289fb2eb"
+      sha256 "c1c33ca6a86c19a82e3ad1513f6c4631c89d1114b77e4a13c0b94d5bd0a82ec8"
     end
     on_arm do
       url "https://github.com/erraggy/oastools/releases/download/v#{version}/oastools_Linux_arm64.tar.gz",
         verified: "github.com/erraggy/oastools"
-      sha256 "8f0000147601bca5804c3089ff9a41bceb1a750234ba6a326528b6af6ce00035"
+      sha256 "893019add208383a5f5fcb876869a6c1c8cec1d4afdca1c409cd7ac316b144ee"
     end
   end
 
