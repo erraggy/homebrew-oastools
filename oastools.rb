@@ -5,21 +5,21 @@
 class Oastools < Formula
   desc "OpenAPI Specification (OAS) tools for validation, parsing, converting, and joining specs."
   homepage "https://github.com/erraggy/oastools"
-  version "1.37.0"
+  version "1.38.0"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/erraggy/oastools/releases/download/v1.37.0/oastools_Darwin_x86_64.tar.gz"
-      sha256 "73997ef284432cf4057dfedd472042b75276f5c2e81abc126848d64150622737"
+      url "https://github.com/erraggy/oastools/releases/download/v1.38.0/oastools_Darwin_x86_64.tar.gz"
+      sha256 "0c32c895ec44c29cbc24a7dd6aac3c58d5affd092ddfb5e258cd0142b8761c9f"
 
       def install
         bin.install "oastools"
       end
     end
     if Hardware::CPU.arm?
-      url "https://github.com/erraggy/oastools/releases/download/v1.37.0/oastools_Darwin_arm64.tar.gz"
-      sha256 "44234b3a001de778ba3c7b044c2c2cf889f7a82325712fe3f0fd0774dfa50232"
+      url "https://github.com/erraggy/oastools/releases/download/v1.38.0/oastools_Darwin_arm64.tar.gz"
+      sha256 "e34c05047e9bd5c0de55478917624a21d7514b73ae12fbb916a33ee14e18ae13"
 
       def install
         bin.install "oastools"
@@ -29,15 +29,15 @@ class Oastools < Formula
 
   on_linux do
     if Hardware::CPU.intel? && Hardware::CPU.is_64_bit?
-      url "https://github.com/erraggy/oastools/releases/download/v1.37.0/oastools_Linux_x86_64.tar.gz"
-      sha256 "46609ae15ad380da3908cea5e1496b4e4c96eca35caf708224d5c05617d61dce"
+      url "https://github.com/erraggy/oastools/releases/download/v1.38.0/oastools_Linux_x86_64.tar.gz"
+      sha256 "51f3b157a771e0dd288532911c199ca2e2d1afd6c1ba9f95c6d1afd84fd18024"
       def install
         bin.install "oastools"
       end
     end
     if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
-      url "https://github.com/erraggy/oastools/releases/download/v1.37.0/oastools_Linux_arm64.tar.gz"
-      sha256 "8e06056a12412c073f3d048eb690a738c553b942f2c67b680a082254aa486791"
+      url "https://github.com/erraggy/oastools/releases/download/v1.38.0/oastools_Linux_arm64.tar.gz"
+      sha256 "e683c3a3c060c78f46efcc384566f9c7e2a626f7bb6e12c8398cf59370fe0d32"
       def install
         bin.install "oastools"
       end
